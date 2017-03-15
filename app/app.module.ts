@@ -10,7 +10,8 @@ import {
   EventRouteActivator,
   EventListResolver,
   CreateSessioncomponent,
-  SessionListComponent
+  SessionListComponent,
+  DurationPipe
 } from "./events/index";
 
 import { NavBarComponent } from "./nav/navbar.component";
@@ -39,7 +40,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     Error404Component,
     CreateSessioncomponent,
     SessionListComponent,
-    CollapsibleWellComponent
+    CollapsibleWellComponent,
+    DurationPipe
   ],
   providers : [
     EventService,
